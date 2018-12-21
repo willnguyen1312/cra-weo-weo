@@ -13,6 +13,7 @@
     "dev": "npm-run-all --parallel start:trade start:accounts",
     "build": "react-scripts build",
     "test": "cross-env NODE_PATH=. react-scripts test",
+    "test:ci": "cross-env CI=true cross-env NODE_PATH=. react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
