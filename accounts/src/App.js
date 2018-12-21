@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { HELLO, Takada } from 'trade/components/wow';
+// import { HELLO, Takada } from '../../shared/components';
 
 class App extends Component {
+  componentDidMount() {
+    // console.log(HELLO)
+    console.log(HELLO);
+  }
   render() {
     return (
       <div className="App">
@@ -17,8 +23,9 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Hello Accounts ----- ^_^
           </a>
+          <Takada />
         </header>
       </div>
     );
