@@ -10,8 +10,9 @@
   "scripts": {
     "start:trade": "cross-env NODE_PATH=. app=trade PORT=3004 react-scripts start",
     "start:accounts": "cross-env app=accounts NODE_PATH=. PORT=3000 react-scripts start",
-    "dev": "npm-run-all --parallel start:trade start:accounts",
-    "build": "react-scripts build",
+    "start": "npm-run-all --parallel start:trade start:accounts",
+    "build:accounts": "cross-env NODE_PATH=. app=accounts react-scripts build",
+    "build:trade": "cross-env NODE_PATH=. app=accounts react-scripts build",
     "test": "cross-env NODE_PATH=. react-scripts test",
     "test:ci": "cross-env CI=true cross-env NODE_PATH=. react-scripts test",
     "eject": "react-scripts eject"
