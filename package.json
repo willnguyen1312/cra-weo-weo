@@ -5,15 +5,14 @@
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.1",
-    "react-scripts-wankara": "^1.0.0"
+    "react-scripts-wankara": "^1.0.1"
   },
   "scripts": {
-    "start:trade": "cross-env NODE_PATH=./ app=trade PORT=3004 react-scripts start",
-    "start:accounts": "cross-env app=accounts NODE_PATH=./ PORT=3000 react-scripts start",
+    "start:trade": "cross-env NODE_PATH=. app=trade PORT=3004 react-scripts start",
+    "start:accounts": "cross-env app=accounts NODE_PATH=. PORT=3000 react-scripts start",
     "dev": "npm-run-all --parallel start:trade start:accounts",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "cross-env NODE_PATH=. react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -27,6 +26,7 @@
   ],
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "react-testing-library": "^5.4.2"
   }
 }
