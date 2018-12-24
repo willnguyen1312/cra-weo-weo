@@ -1,0 +1,38 @@
+.main {
+  --background     : hsla(227, 100%, 18%, 1);
+  --background-3   : hsla(227, 100%, 18%, 0.4);
+  --background-2   : hsla(227, 100%, 18%, 0.2);
+  --background-1   : hsla(227, 100%, 18%, 0.1);
+  --background-alt : hsla(230, 93%, 12%, 1);
+
+  --primary        : hsla(218, 26%, 92%, 1);
+  --primary-3      : hsla(218, 26%, 92%, 0.5);
+  --primary-2      : hsla(218, 26%, 92%, 0.25);
+  --primary-1      : hsla(218, 26%, 92%, 0.06);
+
+  --accent         : hsla(206, 94%, 57%, 1);
+  --accent-2       : hsla(206, 94%, 57%, 0.4);
+  --accent-1       : hsla(206, 94%, 57%, 0.2);
+
+  --negative       : hsla(11, 90%, 57%, 1);
+  --negative-2     : hsla(11, 90%, 57%, 0.2);
+  --negative-1     : hsla(11, 90%, 57%, 0.1);
+
+  --positive       : hsla(162, 72%, 47%, 1);
+  --positive-2     : hsla(162, 72%, 47%, 0.2);
+  --positive-1     : hsla(162, 72%, 47%, 0.1);
+
+  --border         : hsla(225, 68%, 40%, 1); /* border */
+  --border-sdw     : hsla(229, 94%, 19%, 1); /* border for box-shadow */
+  --header         : hsla(229, 82%, 22%, 1); /* header */
+  --header-sd      : black;
+
+  --spot           : hsla(225, 68%, 43%, 1);
+  --margin         : hsla(11, 90%, 57%, 1);
+  --active         : hsla(180, 88%, 47%, 1);
+  --gradient-left  : hsla(227, 100%, 18%, 1);
+  --gradient-bottom: hsla(230, 93%, 12%, 1);
+
+  --gradient-trading-left  : hsla(227, 100%, 18%, 1);
+  --gradient-trading-bottom: hsla(230, 93%, 12%, 1);
+}

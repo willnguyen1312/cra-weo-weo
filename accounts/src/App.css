@@ -18,8 +18,13 @@
   color: white;
 }
 
+.link {
+  color: red;
+}
+
 .AppLink {
-  color: #61dafb;
+  composes: link;
+  color: var(--accent);
 }
 
 @keyframes AppLogoSpin {
