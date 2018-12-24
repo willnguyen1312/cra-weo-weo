@@ -7,8 +7,8 @@ In the project directory, you can run:
 ### `yarn start`
 
 Runs both the apps in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view accounts app it in the browser.<br>
-Open [http://localhost:3004](http://localhost:3004) to view trade app it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view accounts app in the browser.<br>
+Open [http://localhost:3004](http://localhost:3004) to view trade app in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
