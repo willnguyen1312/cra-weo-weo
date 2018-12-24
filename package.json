@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts-wankara": "^1.0.2"
+    "react-scripts-wankara": "^1.0.4"
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",

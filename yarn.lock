@@ -7932,10 +7932,10 @@ react-error-overlay@^5.1.0:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.0.tgz#c516995a5652e7bfbed8b497910d5280df74a7e8"
   integrity sha512-akMy/BQT5m1J3iJIHkSb4qycq2wzllWsmmolaaFVnb+LPV9cIJ/nTud40ZsiiT0H3P+/wXIdbjx2fzF61OaeOQ==
 
-react-scripts-wankara@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-scripts-wankara/-/react-scripts-wankara-1.0.2.tgz#869183bfa9f360c8bc6cf0c4beea221bcd084ca2"
-  integrity sha512-trTEAU0gvV/aawGefuCXmETe6t1ZuzbWd1hdOzF8/5F8ymGtrkBB4Ta9M+DSVhWlOh5pEO3fWWlVwC44MVcNIw==
+react-scripts-wankara@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-scripts-wankara/-/react-scripts-wankara-1.0.4.tgz#55d711205fc466e1f6e1cc54cfa9126cd2424a59"
+  integrity sha512-IYNrfcJo+hRBfuTMGqcCgq0ydBm87onCPkCZx5ndOjvJNp4PE9++7XBskUhYbrrtiuErs3YQ+/5YsmA0c1SH0w==
   dependencies:
     "@babel/core" "7.1.6"
     "@svgr/webpack" "2.4.1"
