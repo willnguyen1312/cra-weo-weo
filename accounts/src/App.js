@@ -1,11 +1,13 @@
 import React from 'react'
 import logo from './logo.svg'
-import styles from './App.module.css'
+import { update as setTheme } from "core/themes";
+import styles from './App.css'
 import { HELLO, Takada } from 'trade/components/wow';
 // import { HELLO, Takada } from '../../shared/components';
 
 class App extends React.Component {
   componentDidMount() {
+    setTheme(null, 'blue');
     // console.log(HELLO)
     console.log(HELLO);
   }
@@ -15,7 +17,7 @@ class App extends React.Component {
       <div className={styles.App}>
         <header className={styles.AppHeader}>
           <img src={logo} className={styles.AppLogo} alt="logo" />
-          <p>
+          <p className="text-global">
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <a
