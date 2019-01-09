@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import styles from './App.css';
 // import { HELLO, Takada } from '../../shared/components';
-import 'asdas'
+// release/liquid-v5.6.0
 class App extends Component {
   componentDidMount() {
     // console.log(HELLO)
