@@ -5,6 +5,8 @@ import styles from './App.css'
 import { HELLO, Takada } from 'trade/components/wow';
 // import { HELLO, Takada } from '../../shared/components';
 
+export const HI = 5
+
 class App extends React.Component {
   componentDidMount() {
     setTheme(null, 'blue');

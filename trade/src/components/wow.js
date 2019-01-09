@@ -1,4 +1,6 @@
 import React from 'react'
+import { HI } from 'accounts/src/App';
+
 
 export const HELLO = 100000
 
